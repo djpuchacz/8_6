@@ -1,13 +1,9 @@
-function getTriangleArea(a, h) 
-{
-  if (a > 0 && h > 0) 
-{
-} 
-  else 
-{
-return 'nieprawidłowe dane'
-}
-return a * h/2  
+function getTriangleArea(a, h) {
+	if (a > 0 && h > 0) {		
+	}	else {
+			return 'nieprawidłowe dane'
+	}
+	return a * h/2  
 }
 var triangle1Area = getTriangleArea(4, 6);
 var triangle2Area = getTriangleArea(5, 8);
